@@ -30,3 +30,6 @@ include vendor/palladium_molecules/fonts/fonts.mk
 
 # Includes prebuilts
 include vendor/palladium_molecules/prebuilts/prebuilts.mk
+
+# Includes qsthemes
+include vendor/palladium_molecules/qsthemes/qsthemes.mk
