@@ -28,6 +28,9 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/palladium_molecules
 # Includes accents
 include vendor/palladium_molecules/accents/accents.mk
 
+# Includes cutout shapes
+include vendor/palladium_molecules/cutout/cutout.mk
+
 # Includes icon packs/shapes
 include vendor/palladium_molecules/icons/icons.mk
 
