@@ -45,3 +45,6 @@ include vendor/palladium_molecules/prebuilts/prebuilts.mk
 
 # Includes qsthemes
 include vendor/palladium_molecules/qsthemes/qsthemes.mk
+
+# Includes themes
+include vendor/palladium_molecules/themes/themes.mk
