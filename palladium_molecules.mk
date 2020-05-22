@@ -52,6 +52,9 @@ include vendor/palladium_molecules/qsthemes/qsthemes.mk
 # Includes themes
 include vendor/palladium_molecules/themes/themes.mk
 
+# Include Switch Styles
+include vendor/palladium_molecules/Switch/switch.mk
+
 ifeq ($(EXTRA_FOD_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
     FodAnimationResources
