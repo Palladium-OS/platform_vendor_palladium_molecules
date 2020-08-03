@@ -28,6 +28,9 @@ include vendor/palladium_molecules/icons/icons.mk
 # Includes fonts
 include vendor/palladium_molecules/fonts/fonts.mk
 
+# Includes gvm
+include vendor/palladium_molecules/gvm/gvm.mk
+
 # Includes prebuilts
 include vendor/palladium_molecules/prebuilts/prebuilts.mk
 
