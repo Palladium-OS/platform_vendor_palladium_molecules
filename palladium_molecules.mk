@@ -31,6 +31,9 @@ include vendor/palladium_molecules/fonts/fonts.mk
 # Includes gvm
 include vendor/palladium_molecules/gvm/gvm.mk
 
+# Includes navbar
+include vendor/palladium_molecules/navbar/navbar.mk
+
 # Includes prebuilts
 include vendor/palladium_molecules/prebuilts/prebuilts.mk
 
