@@ -51,3 +51,13 @@ include vendor/palladium_molecules/qsthemes/qsthemes.mk
 
 # Includes themes
 include vendor/palladium_molecules/themes/themes.mk
+
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimationResources
+endif
+
+ifeq ($(TARGET_HAS_FOD),true)
+DEVICE_PACKAGE_OVERLAYS += vendor/palladium/overlay/fod-icons
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/palladium/overlay/fod-icons
+endif
