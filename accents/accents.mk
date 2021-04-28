@@ -12,21 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
-
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-
-# Copy fonts to system
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/palladium_molecules/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
-
-# Includes accents
-include vendor/palladium_molecules/accents/accents.mk
-
-# Includes icon packs/shapes
-include vendor/palladium_molecules/icons/icons.mk
-
-# Includes fonts
-include vendor/palladium_molecules/fonts/fonts.mk
-
-# Includes prebuilts
-include vendor/palladium_molecules/prebuilts/prebuilts.mk
+# Acccents
+PRODUCT_PACKAGES += \
+    AccentColorAmethystOverlay \
+    AccentColorAquamarineOverlay \
+    AccentColorBlackOverlay \
+    AccentColorCarbonOverlay \
+    AccentColorCinnamonOverlay \
+    AccentColorGreenOverlay \
+    AccentColorOceanOverlay \
+    AccentColorOrchidOverlay \
+    AccentColorPurpleOverlay \
+    AccentColorPaletteOverlay \
+    AccentColorSandOverlay \
+    AccentColorSpaceOverlay \
+    AccentColorTangerineOverlay
