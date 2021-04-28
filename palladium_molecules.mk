@@ -19,6 +19,9 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 # Copy fonts to system
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/palladium_molecules/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
+# Includes icon packs/shapes
+include vendor/palladium_molecules/icons/icons.mk
+
 # Includes fonts
 include vendor/palladium_molecules/fonts/fonts.mk
 
