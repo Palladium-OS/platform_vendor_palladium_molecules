@@ -34,8 +34,8 @@ include vendor/palladium_molecules/cutout/cutout.mk
 # Includes icon packs/shapes
 include vendor/palladium_molecules/icons/icons.mk
 
-# Includes fonts
-include vendor/palladium_molecules/fonts/fonts.mk
+# # Includes fonts
+# include vendor/palladium_molecules/fonts/fonts.mk
 
 # Includes gvm
 include vendor/palladium_molecules/gvm/gvm.mk
@@ -54,6 +54,10 @@ include vendor/palladium_molecules/themes/themes.mk
 
 # Include Switch Styles
 include vendor/palladium_molecules/Switch/switch.mk
+
+# Fonts
+PRODUCT_PACKAGES += \
+    Palladium-Fonts
 
 ifeq ($(EXTRA_FOD_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
