@@ -25,8 +25,8 @@ endif
 # Copy fonts to system
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/palladium_molecules/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
-# Includes accents
-include vendor/palladium_molecules/accents/accents.mk
+# # Includes accents
+# include vendor/palladium_molecules/accents/accents.mk
 
 # Includes cutout shapes
 include vendor/palladium_molecules/cutout/cutout.mk
