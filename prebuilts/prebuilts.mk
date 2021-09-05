@@ -14,7 +14,6 @@
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
-    pdC \
     GalleryGoPrebuilt
 
 
